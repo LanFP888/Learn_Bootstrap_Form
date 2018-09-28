@@ -11,8 +11,30 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+  <div class="modal-dialog text-center">
+    <!-- takes 2/3 of the screen above sm size -->
+    <div class="col-sm-8 main-section">
+      <div class="modal-content">
+        <div class="col-12 user-img">
+          <img src="img/face.png">
+        </div>
+        <form class="col-12">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Enter Username">
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control" placeholder="Password">
+          </div>
+          <button type="submit" class="btn"><i class="fas fa-sign-in-alt"></i>Login</button>
+        </form>
 
-  
+        <div class="col-12 forgot">
+          <a href="#">Forgot Password?</a>
+        </div>
+      </div> <!--this is the end of the modal content, all form content goes here-->
+
+    </div>
+  </div>
 
 </body>
 </html>
